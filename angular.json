@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AngularL03": {
+    "angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularL03"
+    }
+  },
+  "defaultProject": "AngularL03",
+  "cli": {
+    "analytics": false
+  }
 }
